@@ -1,0 +1,43 @@
+.header{
+    min-height: 100vh;
+    background: #333;
+}
+
+.header ul{
+    color: orange;
+    margin-top: 20px;
+}
+
+.nav{
+display: flex;
+align-items: center;
+gap: 12px;
+padding:  14px 12px;
+cursor: pointer;
+}
+
+.nav p {
+    display: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.active{
+    border-right-style:  solid;
+    border-right-width: 4px;
+    border-right-color: #ea580c;
+}
+
+
+@media  (min-width: 768px) {
+    .nav{
+        padding-left: 36px;
+        padding-right: 36px;
+        min-width: 288px;
+    }
+
+    .nav p {
+        display: block;
+    }
+   
+}

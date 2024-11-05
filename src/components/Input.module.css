@@ -1,0 +1,19 @@
+.container  input {
+    border-radius: 4px;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.container input {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.container label {
+    margin-top: 20px;
+    padding-top: 20px;
+}
